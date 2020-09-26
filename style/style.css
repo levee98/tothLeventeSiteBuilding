@@ -51,3 +51,31 @@ button {
   background-color: blue;
   box-shadow: 3px 3px #ccc;
 }
+
+.flex-box {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  border: 2px solid;
+}
+
+.pic1 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pic2 {
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.pic3 {
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.pic4 {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.pic5 {
+  justify-content: center;
+  align-items: center;
+}
