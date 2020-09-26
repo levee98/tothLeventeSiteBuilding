@@ -46,3 +46,8 @@ a {
   grid-row: 5/6;
   border: 2px dotted black;
 }
+
+button {
+  background-color: blue;
+  box-shadow: 3px 3px #ccc;
+}
